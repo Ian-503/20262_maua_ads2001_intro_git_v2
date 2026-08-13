@@ -9,5 +9,9 @@ while verdade:
             numero1=int(input('qual o primeiro numero'))
             numero2=int(input('qual o segundo numero '))
             print(calculadora.somar(numero1,numero2))
+        case 2: 
+            numero1=int(input('qual o primeiro numero'))
+            numero2=int(input('qual o segundo numero '))
+            print(calculadora.subtrair(numero1,numero2))
         case 0: 
             verdade=False        
